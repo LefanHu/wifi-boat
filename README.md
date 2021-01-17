@@ -5,6 +5,8 @@
 - PCA9685 16-channel 12-bit PWM driver
 - ESP-8266 NODEMCU
 - 2 DC Motors
+- 9 volt battery
+- D-Sun step down voltage regulator
 - 3D printed ship body
 
 ## Resources
