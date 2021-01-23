@@ -21,3 +21,5 @@
 [arduino: run function when key is pressed](https://www.arduino.cc/en/Reference/KeyPressed)
 
 [Nodemcu wifi controlled motors](https://www.hackster.io/alankrantas/simple-nodemcu-wifi-controlled-car-esp8266-c5491e)
+
+[arduino setpwm() parameters](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library/issues/26)
