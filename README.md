@@ -5,11 +5,14 @@ A project was assigned for TDJ3M-03 (Gr 11 Tech Design). The project outline can
 - As a complete beginner to circuits and electronics, I thought a servo driver should be able to control DC motors. However, they simply cannot. Hence, a regular motor driver was used in the end (like it should have been).
 - Diodes allow current to pass in one direction and not the other direction. This function can be used to protect an arduino or a transistor from a negative spike of voltage from a motor when you turn it off.
 - Avoid sharing power sources between motors and NODEMCU. When motors are in use, the voltage can drop below the acceptable threshold of the microcontroller, causing it to turn off.
+- Some mosfets are designed to use a higher gate threshold than others, typically 3V or 5V for microcontrollers. The gpio pins on the NODEMCU outputs 3.3V max, which is too low for some mosfets.
 
 Note to future self. Do not attempt to use servo drivers to control DC motors that only have 2 pins (V+ V-).
 
 ## Other notes
 - The body of the "boat" is valid as holes and openings were cut into it, such a case was allowed by the teacher.
+- Code was taken and modified from [here](https://www.hackster.io/alankrantas/simple-nodemcu-wifi-controlled-car-esp8266-c5491e)
+- D1 (GPIO5) on NODEMCU was used as pwm signal pin
 
 ## Images
 ![boat image 1](https://github.com/LefanHu/wifi-boat/blob/main/boat1.jpg)
