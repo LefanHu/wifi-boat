@@ -11,7 +11,7 @@ Note to future self. Do not attempt to use servo drivers to control DC motors th
 - 2 DC Motors
 - 9 volt battery
 - ~~Resistor (specifications)~~
-- !!Diode (specifications)~~
+- ~~Diode (specifications)~~
 - D-Sun step down voltage regulator
 - 3D printed ship ~~body~~ parts
 - N-MOS motor driver
