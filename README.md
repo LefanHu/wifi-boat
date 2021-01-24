@@ -8,6 +8,9 @@ A project was assigned for TDJ3M-03 (Gr 11 Tech Design). The project outline can
 
 Note to future self. Do not attempt to use servo drivers to control DC motors that only have 2 pins (V+ V-).
 
+## Other notes
+- The body of the "boat" is valid as holes and openings were cut into it, such a case was allowed by the teacher.
+
 ## Images
 ![boat image 1](https://github.com/LefanHu/wifi-boat/blob/main/boat1.jpg)
 ![boat image 2](https://github.com/LefanHu/wifi-boat/blob/main/boat2.jpg)
