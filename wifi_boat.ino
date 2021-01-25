@@ -134,11 +134,11 @@ void boat_control() {
       break;
     case 3: // turn left
       if (power + 200 < 1024) power += 200;
-      car_mode = 0;
+      car_mode = 1;
       break;
     case 4: // turn right
       if (power - 200 > 0) power -= 200;
-      car_mode = 0;
+      car_mode = 1;
       break;
   }
 }
