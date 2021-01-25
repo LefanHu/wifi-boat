@@ -1,7 +1,6 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #include <Wire.h>
-#include <Adafruit_PWMServoDriver.h>
 
 // WiFi settings
 #define WIFI_MODE           2                     // 1 = AP mode, 2 = STA mode
